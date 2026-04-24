@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Python, Django & React Developer</title>
+    <meta name="description" content="Portfolio of a Full-Stack Developer specializing in Python, Django, DRF, and React.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Lenis for smooth scroll -->
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.39/dist/lenis.min.js"></script>
+    <!-- Vanilla Tilt for 3D card effect -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="code-bg-texture" aria-hidden="true">
+        <pre><code>
+{
+  "developer": {
+    "status": "active",
+    "focus": ["backend", "frontend", "architecture"],
+    "availability": true
+  }
+}
+        </code></pre>
+        <pre class="code-2"><code>
+def build_scalable_api(request):
+    """
+    Constructs high-performance 
+    endpoints with DRF.
+    """
+    return Response({"status": "optimized"})
+        </code></pre>
+    </div>
+
+    <!-- Canvas for Node-Link Mesh Background -->
+    <canvas id="mesh-canvas"></canvas>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <div class="badge">System.out.println("Hello World");</div>
+                <h1 class="hero-headline">Building Scalable Architectures: <br><span class="highlight">Python, Django & React.</span></h1>
+                <p class="hero-subheadline">Specializing in DRF, API Design, and Interactive Frontend.</p>
+                <div class="cta-group">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#stack" class="btn btn-secondary">Tech Stack</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Stack Section -->
+        <section class="stack" id="stack">
+            <div class="container">
+                <h2 class="section-title">Technical Arsenal</h2>
+                <div class="stack-grid">
+                    <div class="stack-item">
+                        <div class="stack-icon">🐍</div>
+                        <h3>Python</h3>
+                        <p>Advanced data structures, async programming.</p>
+                    </div>
+                    <div class="stack-item">
+                        <div class="stack-icon">🎸</div>
+                        <h3>Django</h3>
+                        <p>Robust ORM, secure authentication.</p>
+                    </div>
+                    <div class="stack-item">
+                        <div class="stack-icon">⚙️</div>
+                        <h3>DRF</h3>
+                        <p>RESTful APIs, ViewSets, Token Auth.</p>
+                    </div>
+                    <div class="stack-item">
+                        <div class="stack-icon">🐘</div>
+                        <h3>PostgreSQL</h3>
+                        <p>Relational design, indexing, performance.</p>
+                    </div>
+                    <div class="stack-item">
+                        <div class="stack-icon">⚛️</div>
+                        <h3>React</h3>
+                        <p>Hooks, context, complex state management.</p>
+                    </div>
+                    <div class="stack-item">
+                        <div class="stack-icon">🐳</div>
+                        <h3>Docker</h3>
+                        <p>Containerization, CI/CD pipelines.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Showcase Section -->
+        <section class="projects" id="projects">
+            <div class="container">
+                <h2 class="section-title">Engineered Solutions</h2>
+                <div class="projects-grid">
+                    
+                    <!-- Project 1 -->
+                    <div class="project-card" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.2">
+                        <div class="project-image parallax-bg" style="background-image: url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80');"></div>
+                        <div class="project-content">
+                            <div class="project-meta">Backend / Infrastructure</div>
+                            <h3 class="project-title">Nexus API Gateway</h3>
+                            <p class="project-desc">A high-performance Django REST Framework project with Redis caching, request throttling, and custom authentication middleware.</p>
+                            <div class="project-tags">
+                                <span>Django</span>
+                                <span>DRF</span>
+                                <span>Redis</span>
+                                <span>Docker</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.2">
+                        <div class="project-image parallax-bg" style="background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80');"></div>
+                        <div class="project-content">
+                            <div class="project-meta">Frontend / Analytics</div>
+                            <h3 class="project-title">Omni Dashboard</h3>
+                            <p class="project-desc">A React-driven analytical interface for Django backends. Features real-time websockets, complex data visualization, and dynamic filtering.</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Chart.js</span>
+                                <span>WebSockets</span>
+                                <span>Tailwind</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container footer-content">
+                <div class="footer-logo">{"dev": "ready"}</div>
+                <p>&copy; 2026 Developer Portfolio. Engineered for performance.</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
